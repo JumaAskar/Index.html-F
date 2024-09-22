@@ -1,0 +1,42 @@
+body {
+    font-family: 'Arial', sans-serif; /*шрифты, их семейства, название*/
+    line-height: 2; /* высота линии*/
+    color: #8900fa; /* цвет*/
+}
+
+.SEARCH INPUT {
+    margin: 10px; /* отступ, в этом случае от всех сторон*/
+    width: 300px; /*ширина */
+    font-size: 20px; /* размер шрифта*/
+    height: 40px; /*высота объекта*/
+}
+
+.search {
+    font-family: 'Courier New', Courier, monospace;
+    color: #485d77;
+}
+
+.submit-button {
+    cursor: pointer; /*при наведении курсора сменяет кадр мыши */
+    font-family: 'Courier New', Courier, monospace;
+    color: #501183;
+}
+.results {
+    margin-top: 20px; /*отступ элемента от верха на 20 пикс*/
+}
+
+.book {
+    border: 1px solid #ccc; /* граница - внешнее выделение пикселенй, солид значит крутой темный*/
+    padding: 10px 10px 10px 100px; /* отступы в пространстве для самого объекта со всех сторон от границ экрана, тбо когда я делал больше кнопка раширялась по краям*/
+    margin: 5px 0;
+}
+
+.buy-button {
+    cursor: pointer;
+    font-family: 'Courier New', Courier, monospace;
+    color: white;
+    background-color: #501183;
+    padding: 10px 25px;
+    margin-left: 100px; /*марджин но с уточнением*/
+    margin-bottom: 100px;
+}

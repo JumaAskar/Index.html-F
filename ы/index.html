@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html lang="ru"> <!--установка языка как и на 4 строке-->
+<head> <!--верхняя вкладка, отображение названия наверху при просмотре страницы-->
+    <meta charset="UTF-8">
+    <link href="style.css" rel="stylesheet"/> <!--подключаем css-->
+    <title>Search Google API Books Engine</title> <!--титул как отображаемое название-->
+</head>
+<body>
+    <h1>BOOKS SEARCH ENGINE</h1>
+    <form class="SEARCH INPUT" id="search-form"> <!--форма дает нам реализовать ввод данных, в форму вводим строку (поиска) и кнопку-->
+        <input type="text" name="input text" class="search" placeholder="Поиск книг!" required> <!--плэйсхолдер - заполнитель, классы это набор элементов и их свойств, с которыми можно работать-->
+        <input type="submit" name="submit" class="submit-button" value="Ищи книги уже"> <!--тип это тип вводных данных, а value это буквально значение, будет отображаться-->
+    </form>
+    <div class="results" id="results"></div>  <!--строка для результатов поиска-->
+    
+    <script src="script.js"></script> <!--подключаем джава скрипт, вся работа с поиском книг будет проводиться там-->
+</body>
+</html>
